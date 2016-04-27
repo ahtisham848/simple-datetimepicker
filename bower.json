@@ -5,7 +5,7 @@
   ],
   "description": "A Sample Datetime Picker",
   "version":"v1.0",
-  "main": "datetimepicker.js",
+  "main": ["datetimepicker.js","datetimepicker.css"],
   "moduleType": [],
   "keywords": [
     "date",
