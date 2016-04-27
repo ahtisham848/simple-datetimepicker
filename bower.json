@@ -4,7 +4,7 @@
     "Ahtisham <ahtisham.quadri@tothenew.com>"
   ],
   "description": "A Sample Datetime Picker",
-  "version":"1.0.0",
+  "version":"v1.0",
   "main": "datetimepicker.js",
   "moduleType": [],
   "keywords": [
