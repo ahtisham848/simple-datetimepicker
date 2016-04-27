@@ -2270,10 +2270,14 @@ var DateFormatter;
 						h = '';
 						m = '';
 
-						line_time = function line_time(h, m) {
-							var now = _xdsoft_datetime.now(), optionDateTime, current_time,
-								isALlowTimesInit = options.allowTimes && $.isArray(options.allowTimes) && options.allowTimes.length;
-							now.setHours(h);
+					
+			line_time = function line_time(h, m) {
+                        var now = _xdsoft_datetime.now(), optionDateTime, current_time,
+                            isALlowTimesInit = options.allowTimes && $.isArray(options.allowTimes) && options.allowTimes.length;
+                        now.setYear(0);
+                        now.setMonth(0);
+                        now.setDate(0);
+                        now.setHours(h);
 							h = parseInt(now.getHours(), 10);
 							now.setMinutes(m);
 							m = parseInt(now.getMinutes(), 10);
